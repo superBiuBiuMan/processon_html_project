@@ -1,0 +1,28 @@
+@import url("public.less");
+
+.head-close-wrap {
+    margin-top: 30px;
+    width: 100%;
+    .big-tip {
+        text-align: center;
+        color: black;
+        &>.strong {
+            .strong();
+            @media screen and(min-width:900px) {
+                span {
+                    display: inline-block;
+                }
+            }
+
+        }
+
+        &>h2 {
+            .small();
+        }
+
+        // 进入文件样式,后期修改为一个公用的样式!!
+        &>a {
+            .enterFile();
+        }
+    }
+}

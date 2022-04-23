@@ -1,0 +1,20 @@
+.clearfix::after,
+.clearfix::before {
+  clear: both;
+  content: "";
+  display: table;
+}
+.sjxSyle {
+  width: 0;
+  height: 0;
+  border: 8px solid white;
+  border-bottom: none;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  right: 0;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*# sourceMappingURL=./public.css.map */

@@ -1,0 +1,137 @@
+// 公共标题
+.strong() {
+    font-size: 40px;
+    box-sizing: border-box;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+    span {
+        display: block;
+    }
+}
+
+.small() {
+    font-style: 18px;
+    font-weight: 400;
+    color: #6c7d8f;
+    margin-bottom: 40px
+}
+
+// 进入我的文件样式
+.enterFile() {
+    line-height: 20px;
+    margin-top: 0;
+    padding: 14px 40px;
+    background: #fff;
+    border: 1px solid #067bef;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #067bef;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.5s opacity;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+//清除浮动
+.clearfix::after,
+.clearfix::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+//三角形样式
+.sjxSyle {
+    width: 0;
+    height: 0;
+    border: 8px solid white;
+    border-bottom: none;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    position: absolute;
+    right: 0;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+//对话框样式
+.publicDialog() {
+    // z-index: 2;
+    // width: @width;
+    // height: @height;
+    // position: absolute;
+    // top: -@height;
+    // left: 50%;
+    // transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+
+.intro() {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    padding: 10px;
+    color: black;
+}
+
+// 优点
+.big-tip() {
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+
+    // 大字
+    &>.strong {
+        font-size: 33px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    //小字描述
+    &>h2 {
+        font-size: 16px;
+        font-weight: 400;
+        color: #6c7d8f;
+        // text-align: left;
+        // margin-bottom: 40px;
+        margin-bottom: 56px;
+        padding-top: 36px;
+        text-align: center;
+    }
+
+    // 进入模板库超链接
+    &>a {
+        box-sizing: border-box;
+        line-height: 20px;
+        margin-top: 0;
+        padding: 14px 40px;
+
+        // 适配特别小分辨率
+        @media screen and (max-width:468px) {
+            padding: 2px;
+        }
+
+        // @media screen and(min-width:469px) {
+        // }
+
+
+        background: #fff;
+        border: 1px solid #067bef;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #3687d8;
+        opacity: 1;
+    }
+
+}

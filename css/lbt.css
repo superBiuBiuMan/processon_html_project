@@ -1,0 +1,133 @@
+.lbt {
+  background: url("../img/lb/achievement_bg.png") no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+.lbt .wrap {
+  width: calc(100% - 32px);
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+@media screen and (min-width: 1200px) {
+  .lbt .wrap {
+    width: 1200px;
+  }
+}
+.lbt .wrap .title {
+  text-align: center;
+  padding-top: 92px;
+  font-size: 44px;
+  font-weight: 700;
+  color: #212930;
+}
+.lbt .wrap .banner_box {
+  height: 440px;
+  margin: auto;
+  position: relative;
+}
+@media screen and (min-width: 900px) {
+}
+.lbt .wrap .banner_box .quote_l,
+.lbt .wrap .banner_box .quote_r {
+  position: absolute;
+  width: 42px;
+  height: 35px;
+}
+.lbt .wrap .banner_box .quote_l {
+  top: 83px;
+  left: -34px;
+}
+.lbt .wrap .banner_box .quote_r {
+  left: auto;
+  top: 249px;
+  right: -35px;
+}
+.lbt .wrap .banner_box .banner-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.lbt .wrap .banner_box .banner-wrap > .banner_item {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s opacity;
+}
+.lbt .wrap .banner_box .banner-wrap > .banner_item > .quote_text {
+  font-size: 16px;
+  line-height: 32px;
+  text-indent: 2em;
+  box-sizing: border-box;
+  font-weight: 400;
+  color: #212930;
+  margin-top: 86px;
+  text-align: left;
+  position: relative;
+}
+@media screen and (min-width: 900px) {
+  .lbt .wrap .banner_box .banner-wrap > .banner_item > .quote_text {
+    text-align: center;
+    font-size: 24px;
+    padding: 0 200px;
+  }
+}
+.lbt .wrap .banner_box .banner-wrap > .banner_item > .quote_user {
+  margin-top: 30px;
+  position: relative;
+}
+.lbt .wrap .banner_box .banner-wrap > .banner_item > .quote_user > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.lbt .wrap .banner_box .banner-wrap > .banner_item > .quote_user .quote_name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+  color: #212930;
+}
+.lbt .wrap .banner_box .banner-wrap > .banner_item > .quote_user .quote_post {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6c7d8f;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.lbt .wrap .banner_box .banner-wrap > .banner_item.active {
+  opacity: 1;
+}
+.lbt .wrap .banner_box .banner-wrap > .banner_foot {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+.lbt .wrap .banner_box .banner-wrap > .banner_foot > div {
+  width: 8px;
+  height: 8px;
+  margin-left: 6px;
+  border-radius: 50%;
+  background: #a6b9cd;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.3s all;
+  position: relative;
+}
+.lbt .wrap .banner_box .banner-wrap > .banner_foot > div.active {
+  background: #212930;
+  transform: scale(1.2);
+}
+/*# sourceMappingURL=./lbt.css.map */

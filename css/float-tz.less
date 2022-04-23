@@ -1,0 +1,52 @@
+.float-tz {
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+    // display: none;
+    z-index: 3;
+    margin: 0;
+    padding: 2px 26px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #067bef;
+    border-radius: 19px 19px 19px 19px;
+    box-shadow: 0 16px 24px 0 rgb(0 0 0 / 8%);
+    .img {
+        border-radius: 8px;
+        width: 116px;
+        margin: 0 auto;
+        padding-bottom: 5px;
+        color: #067bef;
+        font-size: 20px;
+        line-height: 38px;
+
+        //图片
+        img {
+            display: block;
+            width: 111px;
+            height: 111px;
+            margin: 6px auto 2px;
+        }
+
+        //介绍
+        &>span {
+            font-size: 14px;
+            display: block;
+        }
+    }
+
+    .close {
+        color: #999;
+        font-size: 18px;
+        display: inline-block;
+        position: absolute;
+        top: -12px;
+        right: -14px;
+        cursor: pointer;
+    }
+
+
+}

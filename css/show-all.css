@@ -1,0 +1,134 @@
+.animation-show-all {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 10px;
+}
+@media screen and (min-width: 1200px) {
+  .animation-show-all .wrap {
+    width: 1200px;
+    margin: auto;
+  }
+}
+.animation-show-all .wrap .nav-bar {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+.animation-show-all .wrap .nav-bar .nav {
+  width: 100%;
+  margin-top: 20px;
+}
+@media screen and (min-width: 900px) {
+  .animation-show-all .wrap .nav-bar .nav {
+    text-align: center;
+    margin-bottom: 65px;
+  }
+}
+.animation-show-all .wrap .nav-bar .nav li {
+  transition: 1s;
+}
+.animation-show-all .wrap .nav-bar .nav li a {
+  display: block;
+  font-size: 40px;
+  font-weight: 400;
+  color: #6c7d8f;
+}
+.animation-show-all .wrap .nav-bar .nav li a i {
+  font-size: 20px;
+  vertical-align: middle;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 900px) {
+  .animation-show-all .wrap .nav-bar .nav li {
+    display: inline-block;
+    padding: 20px;
+  }
+  .animation-show-all .wrap .nav-bar .nav li a {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .animation-show-all .wrap .nav-bar .nav li {
+    padding: 50px;
+  }
+}
+.animation-show-all .wrap .nav-bar .nav li.active a {
+  color: black;
+}
+.animation-show-all .wrap .show-all .animation-show {
+  border-radius: 9px;
+  overflow: hidden;
+}
+.animation-show-all .wrap .show-all .animation-show .pic-item {
+  display: none;
+}
+.animation-show-all .wrap .show-all .animation-show .pic-item > img {
+  width: 100%;
+}
+.animation-show-all .wrap .show-all .animation-show .pic-item.active {
+  display: block;
+}
+@media screen and (min-width: 900px) {
+  .animation-show-all .wrap .show-all .animation-show {
+    float: left;
+    width: 751px;
+    height: 435px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .animation-show-all .wrap .show-all .select {
+    width: calc(100% - 768px);
+    margin-left: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+.animation-show-all .wrap .show-all .select .select-item {
+  box-sizing: border-box;
+  padding: 34px 25px 34px 50px;
+  border-bottom: solid 1px #e9edf2;
+  border-radius: 8px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.18);
+}
+@media screen and (min-width: 900px) {
+  .animation-show-all .wrap .show-all .select .select-item {
+    text-align: center;
+    padding: 50px 25px 50px 50px;
+  }
+}
+.animation-show-all .wrap .show-all .select .select-item.active {
+  background: rgba(6, 123, 239, 0.08);
+}
+.animation-show-all .wrap .show-all .select .select-item:hover {
+  cursor: pointer;
+}
+.animation-show-all .wrap .show-all .select .select-item > p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media screen and (min-width: 1200px) {
+  .animation-show-all .wrap .show-all .select .select-item > p {
+    text-overflow: unset;
+    white-space: normal;
+  }
+}
+.animation-show-all .wrap .show-all .select .select-item p.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #212930;
+}
+.animation-show-all .wrap .show-all .select .select-item p.description {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #6c7d8f;
+  word-break: break-all;
+  margin-top: 10px;
+}
+@media screen and (min-width: 900px) {
+  .animation-show-all .wrap .show-all .select {
+    float: left;
+  }
+}
+/*# sourceMappingURL=./show-all.css.map */

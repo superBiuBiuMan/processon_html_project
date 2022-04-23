@@ -1,0 +1,92 @@
+.logo-wrap {
+  position: relative;
+  margin-top: 66px;
+  padding-bottom: 34px;
+}
+@media screen and (min-width: 900px) {
+  .logo-wrap {
+    height: 550px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .logo-wrap .center {
+    width: calc(100% - 32px);
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+.logo-wrap .center .show-wrap {
+  text-align: center;
+}
+@media screen and (min-width: 900px) {
+  .logo-wrap .center .show-wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+}
+.logo-wrap .center .show-wrap .intro {
+  width: calc(100vw - 32px);
+  text-align: center;
+  white-space: inherit;
+  position: static;
+  margin: auto;
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 900px) {
+  .logo-wrap .center .show-wrap .intro {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    white-space: nowrap;
+    font-size: 44px;
+    color: #212930;
+    z-index: 10;
+  }
+}
+.logo-wrap .center .show-wrap .intro > p {
+  font-weight: 700;
+  color: #212930;
+  font-size: 30px;
+}
+.logo-wrap .center .show-wrap > div[class^="index"] {
+  text-align: center;
+  width: 120px;
+  margin: 0 24px 20px;
+  display: inline-block;
+}
+@media screen and (min-width: 900px) {
+  .logo-wrap .center .show-wrap > div[class^="index"] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: 1s all;
+  }
+}
+.logo-wrap .center .show-wrap > div[class^="index"] img {
+  height: 100%;
+}
+.bottom {
+  width: 100%;
+  background-color: #212930;
+  margin-bottom: 100px;
+}
+.bottom .wrap {
+  text-align: center;
+  font-size: 33px;
+  color: white;
+  padding: 40px;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 40px;
+  padding-top: 80px;
+}
+.bottom .wrap span {
+  color: #067bef;
+}
+/*# sourceMappingURL=./bottom.css.map */

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProcessOn - 免费在线作图，思维导图，流程图，实时协作</title>
+    <!-- 网页ico -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- 重置样式表 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 引入font-awesome字体图标 -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- 头部css -->
+    <link rel="stylesheet" href="css/header.css">
+    <!-- 头部下css -->
+    <link rel="stylesheet" href="css/headerNext.css">
+    <!-- 动画1 -->
+    <link rel="stylesheet" href="css/animation-move-1.css">
+    <!-- 动画展示区 -->
+    <link rel="stylesheet" href="css/show-all.css">
+    <!-- 优点介绍 -->
+    <link rel="stylesheet" href="css/advantage.css">
+    <!-- 轮播图 -->
+    <link rel="stylesheet" href="css/lbt.css">
+    <!-- 底部 -->
+    <link rel="stylesheet" href="css/bottom.css">
+    <!-- 浮动通知 -->
+    <link rel="stylesheet" href="css/float-tz.css">
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
+</head>
+
+<body>
+    <!-- 头部 -->
+    <section class="head-wrap">
+        <header>
+            <div class="logo">
+                <img src="img/logo_small.svg" alt="">
+            </div>
+            <div class="function-zone">
+                <ul class="clearfix">
+                    <li><a href="javascript:;">免费扩容</a></li>
+                    <li><a href="javascript:;">推荐</a></li>
+                    <li><a href="javascript:;">模板</a></li>
+                    <li><a href="javascript:;">价格</a></li>
+                    <li><a href="javascript:;">入门教程</a></li>
+                    <li><a href="javascript:;">进入我的文件</a></li>
+                </ul>
+            </div>
+            <div class="enter-file">
+                <a href="javascript:;">进入我的文件</a>
+            </div>
+            <!-- 移动端导航 -->
+            <div class="menu-dh">
+                <i class="fas fa-stream"></i>
+            </div>
+        </header>
+    </section>
+    <!-- 头部接近的下 -->
+    <section class="head-close-wrap">
+        <div class="big-tip">
+            <div class="strong clearfix">
+                <span>免费在线</span>流程图思维导图
+            </div>
+            <h2>专业强大的作图工具，支持多人实时在线协作，可用于原型图、UML、BPMN、网络拓扑图等多种图形绘制</h2>
+            <a href="javascript:;" class="special">进入我的文件</a>
+        </div>
+    </section>
+    <!-- 紧接着的一个动画演示 -->
+    <section class="animation-move-1">
+        <div class="wrap">
+            <div class="pic">
+                <img src="img/img_38.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- 导航演示栏 -->
+    <section class="animation-show-all">
+        <div class="wrap">
+            <!-- 指示条 -->
+            <div class="nav-bar">
+                <ul class="nav">
+                    <li class="active"><a href="javascript:;"><i class="fas fa-sitemap"></i>思维导图</a></li>
+                    <li><a href="javascript:;"><i class="fas fa-sitemap"></i>流程图</a></li>
+                    <li><a href="javascript:;"><i class="fas fa-edit"></i>思维笔记</a></li>
+                    <li><a href="javascript:;"><i class="fas fa-sitemap"></i>图形库</a></li>
+                </ul>
+            </div>
+            <!-- 对应的展示区 -->
+            <div class="show-all clearfix">
+                <div class="index-0">
+                    <!-- 动画展示区 -->
+                    <div class="animation-show">
+                        <div class="pic-item active">
+                            <img src="img/animation_show/animation_1.png" alt="">
+                        </div>
+                        <div class="pic-item">
+                            <img src="img/animation_show/animation_2.png" alt="">
+                        </div>
+                        <div class="pic-item">
+                            <img src="img/animation_show/animation_1.png" alt="">
+                        </div>
+                    </div>
+                    <!-- 用户选择区 -->
+                    <div class="select">
+                        <div class="select-item active">
+                            <p class="title">快速上手&nbsp;简易易用</p>
+                            <p class="description">兼容思维导图主流操作，键控灵活，体验流畅。</p>
+                        </div>
+                        <div class="select-item">
+                            <p class="title">功能丰富&nbsp;专业强大</p>
+                            <p class="description">支持Markdown，插入LaTeX数学公式，一键转化为大纲、Word、PPT、Excel等。</p>
+                        </div>
+                        <div class="select-item">
+                            <p class="title">个性化风格定制</p>
+                            <p class="description">提供多种预置主题风格，也可以自由设计你喜爱的风格样式。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="index-1" style="display: none;">
+                    <!-- 动画展示区 -->
+                    <div class="animation-show">
+                        <div class="pic-item active">
+                            <img src="img/animation_show/animation_3.png" alt="">
+                        </div>
+                        <div class="pic-item">
+                            <img src="img/animation_show/animation_2.png" alt="">
+                        </div>
+                        <div class="pic-item">
+                            <img src="img/animation_show/animation_1.png" alt="">
+                        </div>
+                    </div>
+                    <!-- 用户选择区 -->
+                    <div class="select">
+                        <div class="select-item active">
+                            <p class="title">多格式导入导出</p>
+                            <p class="description">支持导入导出Visio、POS、高清图片、PDF等多种格式文件。</p>
+                        </div>
+                        <div class="select-item">
+                            <p class="title">一键美化&nbsp;高效便捷</p>
+                            <p class="description">复杂逻辑，简单绘图，快速排版，高效易用。</p>
+                        </div>
+                        <div class="select-item">
+                            <p class="title">多人协作&nbsp;云端存储</p>
+                            <p class="description">多人绘制，多端同步，实时存储，历史版本可回溯，文件安全有保障。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="index-2" style="display: none;">
+                    <!-- 动画展示区 -->
+                    <div class="animation-show">
+                        <div class="pic-item active">
+                            <img src="img/animation_show/animation_4.png" alt="">
+                        </div>
+                        <div class="pic-item">
+                            <img src="img/animation_show/animation_2.png" alt="">
+                        </div>
+                    </div>
+                    <!-- 用户选择区 -->
+                    <div class="select">
+                        <div class="select-item active">
+                            <p class="title">一键切换思维导图</p>
+                            <p class="description">思维导图、思维笔记灵活切换，自由定义工作方式。</p>
+                        </div>
+                        <div class="select-item">
+                            <p class="title">文档组件化</p>
+                            <p class="description">思维笔记可自由插入、同步编辑流程图、思维导图文件。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="index-3" style="display: none;">
+                    <!-- 动画展示区 -->
+                    <div class="animation-show">
+                        <div class="pic-item active">
+                            <img src="img/animation_show/animation_5.png" alt="">
+                        </div>
+                        <div class="pic-item">
+                            <img src="img/animation_show/animation_6.png" alt="">
+                        </div>
+                    </div>
+                    <!-- 用户选择区 -->
+                    <div class="select">
+                        <div class="select-item active">
+                            <p class="title">多种图形工具</p>
+                            <p class="description">支持原型图、UML、BPMN、网络拓扑图等多种专业图形绘制。</p>
+                        </div>
+                        <div class="select-item">
+                            <p class="title">团队组件库</p>
+                            <p class="description">自定义团队组件库，作图更规范。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 优点介绍 团队协作 共同成长  海量模板 知识分享 多场景跨终端应用-->
+    <!-- 团队协作 共同成长 -->
+    <section class="advantage-1-wrap">
+        <div class="big-tip">
+            <div class="strong">
+                <span>团队协作&nbsp;共同成长</span>
+            </div>
+            <h2>团队成员共创，打造团队知识地图，实现数字化资产沉淀，让团队协作更高效、数据更安全。</h2>
+        </div>
+        <div class="pic">
+            <img src="img/collaboration_1.png" alt="">
+        </div>
+    </section>
+    <!-- 海量模板 知识分享 -->
+    <section class="advantage-2-wrap">
+        <div class="wrap">
+            <div class="pic">
+                <div class="slide">
+                    <img src="img/slide/slide0.png" alt="">
+                    <img src="img/slide/slide0.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/slide/slide1.png" alt="">
+                    <img src="img/slide/slide1.png">
+                </div>
+                <div class="slide">
+                    <img src="img/slide/slide2.png" alt="">
+                    <img src="img/slide/slide2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/slide/slide3.png" alt="">
+                    <img src="img/slide/slide3.png">
+                </div>
+                <div class="mask_top"></div>
+                <div class="mask_bottom"></div>
+                <!-- <img src="img/collaboration_1.png" alt=""> -->
+            </div>
+            <div class="big-tip">
+                <div class="strong">
+                    <span>海量模板 知识分享</span>
+                </div>
+                <h2>百万创作者、数亿模板，激发灵感，提升效率。发布模板还能将知识变现，传递价值。</h2>
+                <a href="javascript:;">进入模板库&nbsp;<i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- 多场景跨终端应用 -->
+    <section class="more-device-wrap">
+        <div class="more-device">
+            <!-- <div class="more-device clearfix"> -->
+            <div class="big-tip">
+                <div class="strong">
+                    <span>多场景跨终端应用</span>
+                </div>
+            </div>
+            <div class="pic">
+                <img src="img/more_device.png" alt="">
+            </div>
+            <div class="device">
+                <div class="web">
+                    <i class="fas fa-pager"></i>
+                    <p>网页版</p>
+                    <!-- 二级信息 -->
+                    <div class="info-wrap">
+                        <div class="intro">
+                        </div>
+                        <!-- <div class="sjx"></div> -->
+                    </div>
+                </div>
+                <div class="pc">
+                    <i class="fas fa-desktop"></i>
+                    <p>PC客户端</p>
+                    <div class="info-wrap">
+                        <div class="intro">
+                            即将上线&nbsp;敬请期待
+                        </div>
+                        <div class="sjx"></div>
+                    </div>
+                </div>
+                <div class="wechat">
+                    <i class="fab fa-weixin"></i>
+                    <p>小程序</p>
+                    <div class="info-wrap">
+                        <div class="intro">
+                            <img src="img/WechatIMG.png" alt="">
+                            <p>ProcessOn微信小程序</p>
+                            <p>微信扫码使用</p>
+                        </div>
+                        <div class="sjx"></div>
+                    </div>
+                </div>
+                <div class="app">
+                    <i class="fa fa-mobile-alt"></i>
+                    <p>APP</p>
+                    <div class="info-wrap">
+                        <div class="intro">
+                            <img src="img/app.png" alt="">
+                            <p>下载移动版领取奖励</p>
+                        </div>
+                        <div class="sjx"></div>
+                    </div>
+                </div>
+                <div class="coop">
+                    <i class="fa fa-users"></i>
+                    <p>团队版入口</p>
+                    <div class="info-wrap">
+                        <div class="intro ">
+                            <div class="qiye">
+                                <img src="img/qiye.svg" alt="">
+                                <p>企业微信版</p>
+                                <a href="javascript:;"><span>立即使用</span></a>
+                            </div>
+                            <div class="feishu">
+                                <img src="img/feishu.svg" alt="">
+                                <p>飞书版</p>
+                                <a href="javascript:;"><span>立即使用</span></a>
+                            </div>
+                            <div class="dingding">
+                                <img src="img/dingding.svg" alt="">
+                                <p>钉钉版</p>
+                                <a href="javascript:;"><span>立即使用</span></a>
+                            </div>
+                        </div>
+                        <div class="sjx"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 一起定义未来组织 -->
+    <!-- 轮播 -->
+    <section class="lbt">
+        <div class="wrap">
+            <div class="title">一起定义未来组织</div>
+            <div class="banner_box">
+                <img alt="ProcessOn-一起定义未来组织" class="quote_l" src="img/lb/quote_l.png">
+                <img alt="ProcessOn-一起定义未来组织" class="quote_r" src="img/lb/quote_r.png">
+                <div class="banner-wrap">
+                    <div class="banner_item active">
+                        <!-- 名言 -->
+                        <div class="quote_text">
+                            一图胜千言，ProcessOn专注并持续创造新的表达方式，将远古文明与现代科技结合，致力于高效学习和工作，做用户最喜爱的产品和价值的连接者。</div>
+                        <!-- 头像和介绍 -->
+                        <div class="quote_user">
+                            <img alt="ProcessOn-欧阳泽丽" src="img/lb/quote_user_0.jpg">
+                            <div>
+                                <div class="quote_name">欧阳泽丽</div>
+                                <div class="quote_post">【ProcessOn创始人兼CEO】</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner_item">
+                        <!-- 名言 -->
+                        <div class="quote_text">
+                            提升用户的工作效率，促进生产力工具的进化，是让人快乐的事情，ProcessOn会继续探索并享受这种乐趣。</div>
+                        <!-- 头像和介绍 -->
+                        <div class="quote_user">
+                            <img alt="ProcessOn-张莹" src="img/lb/quote_user_1.jpg">
+                            <div>
+                                <div class="quote_name">张莹</div>
+                                <div class="quote_post">【ProcessOn CTO】</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner_item">
+                        <!-- 名言 -->
+                        <div class="quote_text">
+                            思维创造工具，高效创造价值，一图胜过千言。愿未来不忘初心，与WPS继续携手前行！</div>
+                        <!-- 头像和介绍 -->
+                        <div class="quote_user">
+                            <img alt="ProcessOn-章庆元" src="img/lb/quote_user_2.jpg">
+                            <div>
+                                <div class="quote_name">章庆元</div>
+                                <div class="quote_post">【金山办公 CEO】</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner_item">
+                        <!-- 名言 -->
+                        <div class="quote_text">
+                            因思维导图和ProcessOn结缘，思维导图创始人东尼·博赞教授期待通过科学的方法改变更多人的思考模式和工作效率，ProcessOn也一直致力于此，这是我们的共同使命！</div>
+                        <!-- 头像和介绍 -->
+                        <div class="quote_user">
+                            <img alt="ProcessOn-梅艳艳" src="img/lb/quote_user_3.jpg">
+                            <div>
+                                <div class="quote_name">梅艳艳</div>
+                                <div class="quote_post">【2021世界思维导图锦标赛组委会执行主席】</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner_item">
+                        <div class="quote_text">
+                            ProcessOn突破性的解决了创意工作中随时随地快速表达的需求，广受产品经理好评，希望ProcessOn越办越好，帮助到更多的团队。</div>
+                        <div class="quote_user">
+                            <img alt="ProcessOn-阿德" src="img/lb/quote_user_4.jpg">
+                            <div>
+                                <div class="quote_name">阿德</div>
+                                <div class="quote_post">【PMCAFF创始人】</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner_item">
+                        <div class="quote_text">
+                            ProcessOn是产品经理喜欢、常用的工具之一。在用户群里有很多人推荐ProcessOn，我也是资深用户。它让产品经理的工作变得更高效便捷，这样大家才能花更多时间去思考产品本身。
+                        </div>
+                        <div class="quote_user">
+                            <img alt="ProcessOn-老曹" src="img/lb/quote_user_5.jpg">
+                            <div>
+                                <div class="quote_name">老曹</div>
+                                <div class="quote_post">【人人都是产品经理&amp;起点学院创始人】</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner_item">
+                        <!-- 名言 -->
+                        <div class="quote_text">
+                            得七相五公、拥七步高才、渡七泽三江、助七十二行，用ProcessOn，绘就一种向上的力量。</div>
+                        <!-- 头像和介绍 -->
+                        <div class="quote_user">
+                            <img alt="ProcessOn-卢荡" src="img/lb/quote_user_6.jpg">
+                            <div>
+                                <div class="quote_name">卢荡</div>
+                                <div class="quote_post">【封面传媒首席内容官】</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner_foot">
+                        <div class="active"></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 多图logo -->
+    <section class="logo-wrap">
+        <div class="center">
+            <div class="show-wrap">
+                <div class="intro">
+                    <p>适用于所有人的</p>
+                    <p>作图工具和知识分享平台</p>
+                </div>
+                <div class="index-1">
+                    <img src="img/server/serve_1.png" alt="">
+                </div>
+                <div class="index-2">
+                    <img src="img/server/serve_2.png" alt="">
+                </div>
+                <div class="index-3">
+                    <img src="img/server/serve_3.png" alt="">
+                </div>
+                <div class="index-4">
+                    <img src="img/server/serve_4.png" alt="">
+                </div>
+                <div class="index-5">
+                    <img src="img/server/serve_5.png" alt="">
+                </div>
+                <div class="index-6">
+                    <img src="img/server/serve_6.png" alt="">
+                </div>
+                <div class="index-7">
+                    <img src="img/server/serve_7.png" alt="">
+                </div>
+                <div class="index-8">
+                    <img src="img/server/serve_8.png" alt="">
+                </div>
+                <div class="index-9">
+                    <img src="img/server/serve_9.png" alt="">
+                </div>
+                <div class="index-10">
+                    <img src="img/server/serve_10.png" alt="">
+                </div>
+                <div class="index-11">
+                    <img src="img/server/serve_11.png" alt="">
+                </div>
+                <div class="index-12">
+                    <img style="width: 72px;" src="img/server/serve_12.png" alt="">
+                </div>
+                <div class="index-13">
+                    <img src="img/server/serve_13.png" alt="">
+                </div>
+                <div class="index-14">
+                    <img style="width: 100px;" src="img/server/serve_14.png" alt="">
+                </div>
+                <div class="index-15">
+                    <img style="width: 134px;" src="img/server/serve_15.png" alt="">
+                </div>
+                <div class="index-16">
+                    <img style="width: 94px;" src="img/server/serve_16.png" alt="">
+                </div>
+                <div class="index-17">
+                    <img style="width: 115px;" src="img/server/serve_17.png" alt="">
+                </div>
+                <div class="index-18">
+                    <img style="width: 115px;" src="img/server/serve_18.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 底部大字 -->
+    <footer class="bottom">
+        <div class="wrap">
+            <p>每天有<span>100,000+</span>文件在ProcessOn创建</p>
+        </div>
+    </footer>
+
+    <!-- 浮动告知书 -->
+    <section class="float-tz">
+        <!-- 图片二维码 -->
+        <div class="img">
+            <img src="img/app.png" alt="">
+            <span>下载移动版</span>领取奖励
+        </div>
+        <!-- 关闭按钮 -->
+        <div class="close">
+            <i class="fas fa-window-close"></i>
+        </div>
+    </section>
+
+
+    <!-- 引入jQuery -->
+    <script src="js/jquery-1.10.1.js"></script>
+    <!-- 本页js -->
+    <script src="js/index.js"></script>
+    <!-- 头部js -->
+    <script src="js/header.js"></script>
+    <!-- 导航演示栏js -->
+    <script src="js/nav.js"></script>
+    <!-- app列表单击 -->
+    <script src="js/advantageItemShow.js"></script>
+    <!-- 轮播图.js  -->
+    <script src="js/lbt.js"></script>
+    <!-- 上下滚动 -->
+    <script src="js/slide.js"></script>
+</body>
+
+</html>

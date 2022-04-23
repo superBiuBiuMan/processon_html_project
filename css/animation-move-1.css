@@ -1,0 +1,38 @@
+.animation-move-1 {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+.animation-move-1 .wrap {
+  width: calc(100% - 56px);
+  box-sizing: border-box;
+  margin: auto;
+  box-shadow: rgba(22, 81, 163, 0.13) 0px 20.8349px 49.8747px 0px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+@media screen and (min-width: 1200px) {
+  .animation-move-1 .wrap {
+    width: 1200px;
+  }
+}
+.animation-move-1 .wrap .pic {
+  box-sizing: border-box;
+  padding: 10px 5px 5px 5px;
+}
+@media screen and (min-width: 1200px) {
+  .animation-move-1 .wrap .pic {
+    width: 1000px;
+    margin: auto;
+  }
+}
+.animation-move-1 .wrap .pic > img {
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .animation-move-1 .wrap .pic > img {
+    transform: scaleX(1.2);
+  }
+}
+/*# sourceMappingURL=./animation-move-1.css.map */
